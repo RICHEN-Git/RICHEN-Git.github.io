@@ -1,0 +1,23 @@
+#app .navbar .home-link span:before {
+    display: inline-block;
+    content: '';
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url('../image/git.png') no-repeat;
+    background-size: 80% 80%;
+    vertical-align: middle;
+}
+
+/* 主体的宽度 */
+.theme-default-content:not(.custom) {
+    max-width: 950px !important;
+}
+
+.home .hero .description {
+    max-width: 60rem !important;
+}
+
+/* 侧边栏字体大小 */
+a.sidebar-link.active {
+    font-weight: 750 !important;
+}
